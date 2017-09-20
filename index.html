@@ -68,7 +68,14 @@
 				<th>Name</th>
 				<th>Day</th>
 			</thead>
-			<tbody class="reservation-list"></tbody>
+			<tbody class="reservation-list">
+				<script id="entry-template" type="text/x-handlebars-template">
+					<tr>
+						<td>{{name}}</td>
+						<td>{{day}}</td>
+					</tr>
+				</script>
+			</tbody>
 		</table>
 	</div>
 
